@@ -17,7 +17,7 @@ int main()
         printf("*****************  Cadastre a sua Primeira Carta:  *****************\n");
         
         printf("Insira uma Letra de 'A' a 'H' para representar seu ESTADO: ");
-        scanf("% c", &estado_1); // Armazenar a letra escolhida pelo usuário na Variável "estado_1"
+        scanf(" %c", &estado_1); // Armazenar a letra escolhida pelo usuário na Variável "estado_1"
 
         printf("Insira o Código da Carta (Letra do Estado + um número entre 01 e 04): ");
         scanf("%s", &codigo_1); // Armazenar o Código escolhido pelo usuário na variável "codigo_1"
